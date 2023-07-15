@@ -18,24 +18,9 @@
             </ul>
           </nav>
     </div>
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script>
-      // Função para enviar uma mensagem para o bot
-      function enviarMensagem() {
-        var mensagem = document.getElementById('mensagem').value;
-        var chatId = 't.me/Chute_certo_TNbot'; // Substitua pelo ID do chat ou usuário que receberá a mensagem
-  
-        // Envie a mensagem para o bot
-        axios.get(`https://api.telegram.org/bot5914483992:AAEKlIBjW0B2TB1JiKhfF61JhzhWNcKZB6U/sendMessage?chat_id=${chatId}&text=${mensagem}`)
-          .then(response => {
-            console.log('Mensagem enviada com sucesso!');
-          })
-          .catch(error => {
-            console.error('Erro ao enviar mensagem:', error);
-          });
-      }
-    </script>
-    <input type="text" id="mensagem" placeholder="Digite sua mensagem">
-<button onclick="enviarMensagem()">Enviar</button>
+    <div class="corpo">
+      <h1>Confira a Tabela atualizada com todas as probabilidades</h1>
+      <p>Estudadas pela nossa equipe</p>
+    </div>
 </body>
 </html>
