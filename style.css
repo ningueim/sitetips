@@ -51,3 +51,7 @@ nav {
 h1 {
   color:var(--blue);
 }
+#dados p {
+  margin-bottom: 10px; /* Adicione margem inferior para separar as informações */
+  font-size: 16px; /* Ajuste o tamanho da fonte conforme necessário */
+}
